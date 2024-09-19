@@ -4,7 +4,7 @@ import router from './routes'; // Assuming other routes are handled in routes.ts
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://telebotfrontend.vercel.app/' }));
 
 // Middleware to parse JSON request bodies
 app.use(express.json());
